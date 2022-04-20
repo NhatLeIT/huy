@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container1 {
+    margin-top: 32px;
+    max-width: 1320px;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.title-name {
+    margin-top: 16px;
+    font-weight: bold;
+}
+
+.main-card {
+    display: inline-block;
+}
+
+.main-card .card {
+    width: 48.5%;
+    margin: 8px;
+    float: left;
+}
+
+.main-card .card-img {
+    height: 500px;
+    width: 100%;
+}
+
+.main-card .add-border {
+    border-bottom: 10px solid #0099ff;
+    font-size: 16px;
+}
+
+.main-card .them {
+    background-color: #fff;
+    color: black;
+}
+
+.recommeded {
+    display: inline-block;
+}
+
+.category-name-khuyen-khich {
+    margin: 8px;
+}
+
+.info-danh-sach {
+    width: 30%;
+    padding: 8px 0;
+    margin: 8px;
+    border-bottom: 3px solid #800080;
+}
+
+.sub-card {
+    margin-top: 16px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+    display: inline-block;
+}
+
+.sub-card .card {
+    width: calc(100% / 4 - 20px);
+    height: 500px;
+    margin: 10px;
+    float: left;
+    display: flex;
+}
+
+.recommeded {
+    background-color: #ebebe0;
+}
+
+.share-button {
+    width: 90%;
+    margin: 14px;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    border: 2px solid #0099ff;
+    padding: 16px 0;
+}
+
+.share-button:hover {
+    background-color: #0099ff;
+    color: #fff;
+}
+
+.sub-card .card:hover {
+    transform: scale(1.01);
+}
+
+.btn-add-loading {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.btn-tai-them {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 8px 32px;
+}
+
+.btn-tai-them:hover {
+    background-color: #fff;
+    color: #000;
+}

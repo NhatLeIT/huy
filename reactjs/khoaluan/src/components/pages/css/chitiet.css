@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container2 {
+    margin-top: 32px;
+    max-width: 1320px;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn-save-recipe {
+    width: 100%;
+}
+
+.btn-luu {
+    width: 64%;
+    margin: 8px;
+    font-weight: bold;
+}
+
+.comments {
+    margin-top: 5%;
+    margin-left: 20px;
+}
+
+.darker {
+    border: 1px solid #ecb21f;
+    background-color: black;
+    float: right;
+    border-radius: 5px;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.comment {
+    border: 1px solid rgba(16, 46, 46, 1);
+    background-color: rgba(16, 46, 46, 0.973);
+    float: left;
+    border-radius: 5px;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.comment h4,
+.comment span,
+.darker h4,
+.darker span {
+    display: inline;
+}
+
+.comment p,
+.comment span,
+.darker p,
+.darker span {
+    color: rgb(184, 183, 183);
+}
+
+h1,
+h4 {
+    color: white;
+    font-weight: bold;
+}
+
+label {
+    color: rgb(212, 208, 208);
+}
+
+#align-form {
+    margin-top: 20px;
+}
+
+.form-group p a {
+    color: white;
+}
+
+#checkbx {
+    background-color: black;
+}
+
+#darker img {
+    margin-right: 15px;
+    position: static;
+}
+
+.form-group input,
+.form-group textarea {
+    background-color: black;
+    border: 1px solid rgba(16, 46, 46, 1);
+    border-radius: 12px;
+}
+
+.name-user-comment {
+    font-weight: bold;
+    color: #fff;
+    margin: 8px;
+}
+
+.slide-image {
+    margin-top: 16px;
+}
